@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "<details/open/ontoggle=alert(document.location)> \"><S>AAAAAAAAAa",
+      "setup": "><S>test <script>alert(1)</script>",
+      "run": "<S>aaaaaaaaaaaaaa <script>alert(1)</script>",
+      "input": "><S>lalala <script>alert(1)</script>",
+      "output": "<script>alert(1)</script> <details/open/ontoggle=alert(document.location)>\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<details/open/ontoggle=alert(document.location)>",
+      "setup": "<details/open/ontoggle=alert(document.location)>",
+      "run": "<details/open/ontoggle=alert(document.location)>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<details/open/ontoggle=alert(document.location)>",
+      "setup": "<details/open/ontoggle=alert(document.location)>",
+      "run": "<details/open/ontoggle=alert(document.location)>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<h1/onmouseover=alert(1)>",
+      "setup": "<h1/onmouseover=alert(1)>",
+      "run": "<h1/onmouseover=alert(1)>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<a href='javascript:alert(document.cookie)'>a",
+      "setup": "<a href='javascript:alert(document.cookie)'>",
+      "run": "<a href='javascript:alert(document.cookie)'>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<plaintext/onmouseover=prompt(1)",
+      "setup": "<plaintext/onmouseover=prompt(1)",
+      "run": "gradle test <plaintext/onmouseover=prompt(1)",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<img src=’../../../../../../../etc/passwd’ />",
+      "setup": "<img src=’../../../../../../../etc/passwd’ />",
+      "run": "<img src=’../../../../../../../etc/passwd’ />",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "<img/src=http://tinypic.com/i/tp-logo.jpg>",
+      "setup": "<img/src=http://tinypic.com/i/tp-logo.jpg>",
+      "run": "<img/src=http://tinypic.com/i/tp-logo.jpg>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
